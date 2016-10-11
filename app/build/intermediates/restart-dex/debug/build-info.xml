@@ -4,21 +4,21 @@
     api-level="23"
     density="420dpi"
     format="7"
-    timestamp="614303533627966"
+    timestamp="615998874105171"
     token="4071430000119412520" >
 
     <task
         name="javac"
-        duration="286" />
+        duration="867" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="83" />
+        duration="162" />
     <task
         name="verifier"
-        duration="11" />
+        duration="30" />
 
     <artifact
         location="C:\Users\Codetribe\Desktop\Qizzy\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
@@ -29,7 +29,7 @@
             location="C:\Users\Codetribe\Desktop\Qizzy\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="614303533627966" >
+    <build timestamp="615998874105171" >
         <artifact
             location="C:\Users\Codetribe\Desktop\Qizzy\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
             type="DEX" />
