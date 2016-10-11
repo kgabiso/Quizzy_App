@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kaysherman.qizzy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_extension_black_24dp"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/FullscreenTheme">
+        <activity
+            android:name=".SplashScreenMainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProgrammingActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_programming"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".CarActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashScreen" />
+        <activity android:name=".SocialActivity" />
+        <activity android:name=".ResultActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name"></string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="tap_here">Tap Here</string>
+    <string name="quizzy_quizz">Quizzy Quizz</string>
+    <string name="title_activity_programming">Programming Challenge</string>
+    <string name="programming">Programming Challenge</string>
+    <string name="questions">Questions</string>
+    <string name="option_3">option 3</string>
+    <string name="option_2">option 2</string>
+    <string name="option_1">option 1</string>
+    <string name="cars">Cars Challenge</string>
+    <string name="loading">Loading…</string>
+    <string name="social_networking_quizz">Social Networking Challenge</string>
+    <string name="results">Results</string>
+    <string name="percentage">percentage</string>
+    <string name="score">Score</string>
+</resources>
