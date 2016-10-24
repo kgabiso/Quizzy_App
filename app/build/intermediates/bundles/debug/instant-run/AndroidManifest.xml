@@ -31,13 +31,16 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_programming"
             android:theme="@style/FullscreenTheme" />
-        <activity android:name="com.example.kaysherman.qizzy.CarActivity" />
+        <activity
+            android:name="com.example.kaysherman.qizzy.CarActivity"
+            android:theme="@style/FullscreenTheme" />
         <activity android:name="com.example.kaysherman.qizzy.HomeActivity" />
         <activity
             android:name="com.example.kaysherman.qizzy.SplashActivity"
             android:theme="@style/SplashScreen" />
         <activity android:name="com.example.kaysherman.qizzy.SocialActivity" />
         <activity android:name="com.example.kaysherman.qizzy.ResultActivity" />
+        <activity android:name="com.example.kaysherman.qizzy.SummaryActivity" />
     </application>
 
 </manifest>

@@ -67,6 +67,7 @@ public class SocialActivity extends AppCompatActivity {
 
     public static int pos,correct = 0;
     int num = 1;
+    public static String activity;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -143,9 +144,11 @@ public class SocialActivity extends AppCompatActivity {
 
                             } else {
                                 pos = 0;
+                                activity = "Social Media Challenge";
                                 Intent intent = new Intent(SocialActivity.this, ResultActivity.class);
                                 intent.putExtra("correct", String.valueOf(correct));//PUTTING EXTRAS TO INTENT
                                 intent.putExtra("questions", String.valueOf(questions.length));
+                                intent.putExtra("Activity",activity);
                                 startActivity(intent);
                                 finish();
                             }

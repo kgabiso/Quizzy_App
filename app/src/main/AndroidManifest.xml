@@ -19,18 +19,28 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".ProgrammingActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_programming"
             android:theme="@style/FullscreenTheme" />
-        <activity android:name=".CarActivity" />
+
+        <activity android:name=".CarActivity"
+            android:theme="@style/FullscreenTheme"/>
+
         <activity android:name=".HomeActivity" />
+
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashScreen" />
+
         <activity android:name=".SocialActivity" />
-        <activity android:name=".ResultActivity"></activity>
+
+        <activity android:name=".ResultActivity" />
+
+        <activity android:name=".SummaryActivity"></activity>
+
     </application>
 
 </manifest>

@@ -67,6 +67,7 @@ public class CarActivity extends AppCompatActivity {
 
     public static int pos,correct = 0;
     int num = 1;
+   public static String activity;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -148,9 +149,11 @@ public class CarActivity extends AppCompatActivity {
 
                             } else {
                                 pos = 0;
+                                activity = "Cars Challenge";
                                 Intent intent = new Intent(CarActivity.this, ResultActivity.class);
                                 intent.putExtra("correct", String.valueOf(correct));
                                 intent.putExtra("questions", String.valueOf(questions.length));
+                                intent.putExtra("Activity",activity);
                                 startActivity(intent);
                                 finish();
                             }

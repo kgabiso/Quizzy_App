@@ -48,6 +48,10 @@
         "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
+        "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_border.xml",
+        "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\src\\main\\res\\drawable\\button_border.xml"
+    },
+    {
         "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
         "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ic_search_api_material.xml"
     },

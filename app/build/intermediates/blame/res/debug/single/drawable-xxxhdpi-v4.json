@@ -24,6 +24,10 @@
         "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_laptop_mac_black_24dp.png"
     },
     {
+        "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_add_black_24dp.png",
+        "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_add_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
         "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
@@ -60,6 +64,14 @@
         "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_help_black_24dp.png"
     },
     {
+        "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_insert_emoticon_black_24dp.png",
+        "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_insert_emoticon_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_mood_bad_black_24dp.png",
+        "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_mood_bad_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png",
         "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
@@ -70,6 +82,10 @@
     {
         "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_close_black_24dp.png",
         "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_close_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_close_white_24dp1.png",
+        "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_close_white_24dp1.png"
     },
     {
         "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
@@ -88,12 +104,20 @@
         "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_directions_car_black_24dp.png"
     },
     {
+        "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_arrow_back_black_24dp.png",
+        "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_camera_front_black_24dp.png",
         "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_camera_front_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
         "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_message_black_24dp.png",
+        "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_message_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png",
@@ -112,6 +136,10 @@
         "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
+        "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_description_black_24dp.png",
+        "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_description_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
         "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -126,5 +154,9 @@
     {
         "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
         "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_feedback_black_24dp.png",
+        "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_feedback_black_24dp.png"
     }
 ]

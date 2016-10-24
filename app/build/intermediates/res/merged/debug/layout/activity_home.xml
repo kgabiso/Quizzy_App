@@ -9,23 +9,25 @@
          is needed to present your content, e.g. VideoView, SurfaceView,
          TextureView, etc. -->
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/quizzy_quizz"
-        android:textColor="@color/textIcon"
-        android:layout_marginTop="50dp"
-        android:keepScreenOn="true"
-        android:fontFamily="cursive"
-        android:id="@+id/textView"
         android:layout_gravity="left|top"
-        android:textSize="60sp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="cursive"
+        android:keepScreenOn="true"
         android:paddingLeft="15dp"
-        android:textStyle="italic|bold"/>
+        android:text="@string/quizzy_quizz"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/textIcon"
+        android:textSize="60sp"
+        android:textStyle="italic|bold" />
+
     <TextView
         android:id="@+id/fullscreen_content"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:gravity="center"
         android:keepScreenOn="true"
         android:text="@string/tap_here"
@@ -33,8 +35,20 @@
         android:textSize="50sp"
         android:textStyle="bold" />
 
+    <TextView
+        android:id="@+id/fullscreen_content2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="35dp"
+        android:keepScreenOn="true"
+        android:text="Long press for summary"
+        android:textColor="@color/lightPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
     <!-- This FrameLayout insets its children based on system windows using
-         android:fitsSystemWindows. -->
+     android:fitsSystemWindows. -->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -48,57 +62,68 @@
             android:layout_gravity="bottom|center_horizontal"
             android:orientation="vertical"
             tools:ignore="UselessParent">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal">
-    <ImageButton
-        android:id="@+id/programming"
-        style="?metaButtonBarButtonStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_laptop_mac_black_24dp"
-        android:layout_weight="1"
-        android:onClick="buttonClick"
-        android:text="@string/dummy_button" />
-    <ImageButton
-        android:id="@+id/cars"
-        style="?metaButtonBarButtonStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_directions_car_black_24dp"
-        android:layout_weight="1"
-        android:onClick="buttonClick"
-        android:text="@string/dummy_button" />
-</LinearLayout>
-           <LinearLayout
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:orientation="horizontal">
-               <ImageButton
-                   android:id="@+id/social"
-                   style="?metaButtonBarButtonStyle"
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content"
-                   android:layout_weight="1"
-                   android:onClick="buttonClick"
-                   android:src="@drawable/ic_camera_front_black_24dp"
-                   android:text="@string/dummy_button" />
-               <ImageButton
-                   android:id="@+id/exit"
-                   style="?metaButtonBarButtonStyle"
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content"
-                   android:layout_weight="1"
-                   android:onClick="buttonClick"
-                   android:src="@drawable/ic_close_black_24dp"
-                   android:text="@string/dummy_button" />
 
-           </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/programming"
+                    style="?metaButtonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/programming_questions"
+                    android:onClick="buttonClick"
+                    android:src="@drawable/ic_laptop_mac_black_24dp"
+                    android:text="@string/dummy_button" />
+
+                <ImageButton
+                    android:id="@+id/cars"
+                    style="?metaButtonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/car_quizz_questions"
+                    android:onClick="buttonClick"
+                    android:src="@drawable/ic_directions_car_black_24dp"
+                    android:text="@string/dummy_button" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/social"
+                    style="?metaButtonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/social_media_quizz_questuions"
+                    android:onClick="buttonClick"
+                    android:src="@drawable/ic_camera_front_black_24dp"
+                    android:text="@string/dummy_button" />
+
+                <ImageButton
+                    android:id="@+id/exit"
+                    style="?metaButtonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/exit"
+                    android:onClick="buttonClick"
+                    android:src="@drawable/ic_close_black_24dp"
+                    android:text="@string/dummy_button" />
+
+            </LinearLayout>
 
         </LinearLayout>
 
 
     </FrameLayout>
+
 
 </FrameLayout>

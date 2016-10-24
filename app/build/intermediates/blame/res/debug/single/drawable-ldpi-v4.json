@@ -1,11 +1,23 @@
 [
     {
+        "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_message_black_24dp.png",
+        "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_message_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_add_black_24dp.png",
+        "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_add_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_extension_black_24dp.png",
         "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_extension_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_camera_front_black_24dp.png",
         "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_camera_front_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_description_black_24dp.png",
+        "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_description_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_laptop_mac_black_24dp.png",
@@ -16,12 +28,32 @@
         "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_help_black_24dp.png"
     },
     {
+        "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_insert_emoticon_black_24dp.png",
+        "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_insert_emoticon_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_dashboard.png",
         "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_dashboard.png"
     },
     {
+        "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_feedback_black_24dp.png",
+        "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_feedback_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_arrow_back_black_24dp.png",
+        "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_directions_car_black_24dp.png",
         "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_directions_car_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_close_white_24dp1.png",
+        "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_close_white_24dp1.png"
+    },
+    {
+        "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_mood_bad_black_24dp.png",
+        "source": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_mood_bad_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\Codetribe\\Desktop\\Qizzy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_spellcheck_black_24dp.png",

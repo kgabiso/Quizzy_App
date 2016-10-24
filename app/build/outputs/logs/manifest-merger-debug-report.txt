@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:2:1-36:12
+ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:2:1-46:12
 	package
 		ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:2:1
 		INJECTED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:5:5-34:19
+ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:5:5-44:19
 MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Codetribe\Desktop\Qizzy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\Codetribe\Desktop\Qizzy\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:support-compat:24.2.0] C:\Users\Codetribe\Desktop\Qizzy\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
@@ -126,37 +126,43 @@ ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:19:
 	android:name
 		ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:19:27-74
 activity#com.example.kaysherman.qizzy.ProgrammingActivity
-ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:22:9-26:54
+ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:23:9-27:54
 	android:label
-		ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:25:13-63
+		ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:26:13-63
 	android:configChanges
-		ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:24:13-74
+		ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:25:13-74
 	android:theme
-		ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:26:13-51
+		ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:27:13-51
 	android:name
-		ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:23:13-48
+		ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:24:13-48
 activity#com.example.kaysherman.qizzy.CarActivity
-ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:27:9-49
-	android:name
-		ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:27:19-46
-activity#com.example.kaysherman.qizzy.HomeActivity
-ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:28:9-50
-	android:name
-		ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:28:19-47
-activity#com.example.kaysherman.qizzy.SplashActivity
-ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:29:9-31:51
+ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:29:9-30:53
 	android:theme
-		ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:31:13-48
+		ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:30:13-51
 	android:name
-		ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:30:13-43
+		ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:29:19-46
+activity#com.example.kaysherman.qizzy.HomeActivity
+ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:32:9-50
+	android:name
+		ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:32:19-47
+activity#com.example.kaysherman.qizzy.SplashActivity
+ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:34:9-36:51
+	android:theme
+		ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:36:13-48
+	android:name
+		ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:35:13-43
 activity#com.example.kaysherman.qizzy.SocialActivity
-ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:32:9-52
+ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:38:9-52
 	android:name
-		ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:32:19-49
+		ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:38:19-49
 activity#com.example.kaysherman.qizzy.ResultActivity
-ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:33:9-61
+ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:40:9-52
 	android:name
-		ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:33:19-49
+		ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:40:19-49
+activity#com.example.kaysherman.qizzy.SummaryActivity
+ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:42:9-62
+	android:name
+		ADDED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml:42:19-50
 uses-sdk
 INJECTED from C:\Users\Codetribe\Desktop\Qizzy\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Codetribe\Desktop\Qizzy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\AndroidManifest.xml:21:5-23:78

@@ -23,11 +23,6 @@ import android.widget.Toast;
  * status bar and navigation/system bar) with user interaction.
  */
 public class HomeActivity extends AppCompatActivity {
-    /**
-     * Whether or not the system UI should be auto-hidden after
-     * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
-     */
-    Animation animDown;
     private static final boolean AUTO_HIDE = true;
     /**
      * If {@link #AUTO_HIDE} is set, the number of milliseconds to wait after
@@ -41,19 +36,10 @@ public class HomeActivity extends AppCompatActivity {
     private static final int UI_ANIMATION_DELAY = 300;
     private final Handler mHideHandler = new Handler();
     /**
-     * Touch listener to use for in-layout UI controls to delay hiding the
-     * system UI. This is to prevent the jarring behavior of controls going away
-     * while interacting with activity UI.
+     * Whether or not the system UI should be auto-hidden after
+     * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
      */
-    private final View.OnTouchListener mDelayHideTouchListener = new View.OnTouchListener() {
-        @Override
-        public boolean onTouch(View view, MotionEvent motionEvent) {
-            if (AUTO_HIDE) {
-                delayedHide(AUTO_HIDE_DELAY_MILLIS);
-            }
-            return false;
-        }
-    };
+    Animation animDown;
     ImageButton progamming;
     int count;
     private View mContentView;
@@ -93,6 +79,20 @@ public class HomeActivity extends AppCompatActivity {
             hide();
         }
     };
+    /**
+     * Touch listener to use for in-layout UI controls to delay hiding the
+     * system UI. This is to prevent the jarring behavior of controls going away
+     * while interacting with activity UI.
+     */
+    private final View.OnTouchListener mDelayHideTouchListener = new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View view, MotionEvent motionEvent) {
+            if (AUTO_HIDE) {
+                delayedHide(AUTO_HIDE_DELAY_MILLIS);
+            }
+            return false;
+        }
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -112,7 +112,15 @@ public class HomeActivity extends AppCompatActivity {
                 toggle();
             }
         });
-
+        mContentView.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+                Intent intent = new Intent(HomeActivity.this,SummaryActivity.class);
+                startActivity(intent);
+                finish();
+                return false;
+            }
+        });
         // Upon interacting with UI controls, delay any scheduled hide()
         // operations to prevent the jarring behavior of controls going away
         // while interacting with the UI.
@@ -144,7 +152,7 @@ public class HomeActivity extends AppCompatActivity {
             actionBar.hide();
         }
 
-        animDown = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.move_down_rev);
+        animDown = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.move_down_rev);
         mControlsView.startAnimation(animDown);
         mControlsView.setVisibility(View.GONE);
         mVisible = false;
@@ -159,7 +167,7 @@ public class HomeActivity extends AppCompatActivity {
         // Show the system bar
         mContentView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
                 | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION);
-        animDown = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.move_down);
+        animDown = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.move_down);
         mControlsView.startAnimation(animDown);
         mVisible = true;
 
@@ -217,6 +225,7 @@ public class HomeActivity extends AppCompatActivity {
             startActivity(intent);
             finish();
         }
+
     }
 
     @Override
@@ -224,6 +233,7 @@ public class HomeActivity extends AppCompatActivity {
 
         count++;
         if (count > 1) {
+
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setTitle("Exit");
             builder.setIcon(R.drawable.ic_help_black_24dp);
@@ -260,8 +270,9 @@ public class HomeActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu, menu);
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.menu,menu);
+
         return true;
 
     }
